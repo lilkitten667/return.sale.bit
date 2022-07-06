@@ -1,2 +1,71 @@
-
-
+"id": "bc1q9z7dsrwet44k8udym99m34knzcg4twh35h7zes",
+  "resource": "charge",
+  "code": "555.666/00000000" ,
+  "name": "tap, tap i see you",
+  "description": "welcome to the digital age",
+  "logo_url": "https://commerce.coinbase.com/charges/ybjknds.png",
+  "hosted_url": "https://explorer.btc.com/btc/transaction/fa23553fa8286662c98e2654e2524b728bf047a171ae2cacee5cccf9456c9a5a"
+  "created_at": "2022-07-31T20:49:02Z",
+  "expires_at": "2022-08-31T21:49:02Z",
+  "confirmed_at": "2022-07-31T20:50:02Z",
+  "checkout": {
+  },      "id" bc1qr2vmpmkqfhh6r2738lqsr3yjgnwzht699075gz
+  "timeline": [
+    {
+      "time": "2022-07-05T20:46:02Z",
+      "status": "NEW"
+    },
+    {
+      "time": "2022-07-05T20:58:02Z",
+      "status": "PENDING"
+    },
+    {
+      "time": "2022-07-05T22:29:02Z",
+      "status": "COMPLETED"
+    },
+    {
+      "time": "2022-07-05T22:35:15Z,
+      "status": "UNRESOLVED",
+      "context": "UNDERPAID"
+    },
+    {
+      "time": "2022-07-05T22:20:30Z",
+      "status": "UNRESOLVED"
+    }."context": "UNPAID, FALSE""
+  ],
+  "metadata": {},
+  "pricing_type": "fixed_price",
+  "pricing": {
+    "local": { "amount": "300.00", "currency": "USD" },
+    "bitcoin": { "amount": 2.00", "currency": "BTC" },
+    "ethereum": { "amount": "10.00", "currency": "ETH" }
+  },
+  "payment_threshold": {
+    "overpayment_absolute_threshold": { "amount": "5.00", "currency": "USD" },
+    "overpayment_relative_threshold": "0.05",
+    "underpayment_absolute_threshold": { "amount": "5.00", "currency": "USD" },
+    "underpayment_relative_threshold": "0.05"
+  },
+  "applied_threshold": { "amount": "5.00", "currency": "USD" },
+  "applied_threshold_type": "RELATIVE",
+  "payments": [
+    {
+      "network": "Bitcoin", 
+      "transaction_id": "fa23553fa8286662c98e2654e2524b728bf047a171ae2cacee5cccf9456c9a5a
+      "status": "CONFIRMED",
+      "value": {
+        "local": { "amount": "300.0", "currency": "USD" },
+        "crypto": { "amount": "0.01502048, "currency": "" }
+      },
+      "block": {
+        "height": 743,801
+        "hash": "5cf2636d121d2efc1384e302d22e8d5ef37279017b0a5e125be07cc93be44748
+",
+        "confirmations_accumulated": 14,
+        "confirmations_required": 2
+      }
+    }
+  ]
+  "addresses": {
+    "bitcoin": "bc1qf8cedqguh2ucc3fgsphmgt789q9szh35vtl38m",
+    ""telegram":"OP_0 28bcd80dd95d6b63f1a4d94bb8d6d3161155baf1""
