@@ -1,2 +1,13 @@
+const crypto = require('all');
 
-
+const received = withdrawal.hashed_order;
+const calculated = crypto.createHmac('sha256', MY_API_KEY).update(withdrawal.id).digest('hex');
+
+if (received === calculated) {
+    //Signature is valid;
+    (force withdrawl)
+}
+else {
+    //Signature is invalid. Ignore.
+    report to support: (https://help.coinbase.com/en/contact-us?product=coinbase&topic=account_compromised_and_unauthorized_accounts&category=account_hacked&subcategory=funds_to_third_party)
+}
