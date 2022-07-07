@@ -1,2 +1,27 @@
+curl https://api.commerce.coinbase.com/charges \
+     -H "X-CC-Api-Key: <d1f6f30f-9a6d-4c9a-8bdc-454d393cf0ca>" \
+     -H "X-CC-Version: 2018-03-22"
+    
+    
+    
+    curl https://api.commerce.coinbase.com/charges \
+     -X POST \
+     -H 'Content-Type: application/json' \
+     -H "X-CC-Api-Key: <Your API Key>" \
+     -H "X-CC-Version: 2018-03-22" \
+     -d '{
+       "name": "running of pedo",
+       "description": "Batdad, senior abuse, you cant hide",
+       "local_price": {
+         "amount": "1200"
+         "currency": "USD"
+       },
+       "pricing_type": "fixed_price",
+       "metadata": {
+         "customer_id": "Datk steals",
+         "customer_name": "psudo given"
+       },
+       "redirect_url": "https://charge/complete/page",
+       "cancel_url": "https://settings/webhook"
+     }'
 
-
