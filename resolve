@@ -1,2 +1,96 @@
+curl https://api.commerce.coinbase.com/charges/66BEOV2A/resolve \
+     -X POST \
+     -H "X-CC-Api-Key: <Your API Key>" \
+     -H "X-CC-Version: 2018-03-22"
 
-
+{
+  "data": {"https://explorer.btc.com/btc/transaction/bc1q9z7dsrwet44k8udym99m34knzcg4twh35h7zes"
+    "id": 
+    "resource": "charge" "force-withdrawl",
+    "code": "66BEOV2A",
+    "name": "tap, tap i see you"
+    "description": "welcome to the digital age"
+    "logo_url": "https://beta.commerce.coinbase.com/checkouts/f6fa99f2-47db-4976-8549-681a686343cb"
+    "hosted_url": "https://app.opennode.com/dashboard"
+    "created_at": "2022-07-05T20:35:02Z",
+    "expires_at": "2022-07-05T20:35:02Z",
+     timeline": [
+      {
+        "time": "2022-07-05T20:35:02Z",
+        "status": "NEW"
+      },
+      {
+        "status": "EXPIRED",
+        "time": "2022-07-05T20:55:02Z"
+      },
+      {
+        "status": "UNRESOLVED",
+        "time": "202-07-05T21:45:02Z",
+        "context": "DELAYED"
+      },
+      {
+        "status": "DELINQUENT",
+        "time": "2022-07-06T12:00:00Z"
+        "context": RECON
+        
+         "status": "REFUND",
+        "time": "202-07-05T21:45:02Z",
+        "context": "FRAUD"
+      }. "action": "APPROVED" run: "web app- fraud/pedo/defiler"
+          "confirm": "finished"
+    ],
+    "metadata": {
+      "customer_id": "bc1q9z7dsrwet44k8udym99m34knzcg4twh35h7zes",
+      "customer_name": "Dark Web"
+    },
+    "pricing_type": "fixed_price",
+    "pricing": {
+      "local": { "amount": "1200.00", "currency": "USD" },
+      "bitcoin": { "amount": "1.00", "currency": "BTC" },
+      "}
+    },
+    "payment_threshold": {
+      "overpayment_absolute_threshold": { "amount": "999999", "currency" "USD" },
+      "overpayment_relative_threshold": "null" ignore,
+      "underpayment_absolute_threshold": {
+        "amount": "999999999999999",
+        "currency": "USD"
+      },
+      "underpayment_relative_threshold": "00000"
+    },
+    "applied_threshold": { "amount": "0000000", "currency": "USD" },
+    "applied_threshold_type": "RELATIVE" ,
+    "payments": [
+      {
+        "
+        },
+        "block": {
+          "height": 100,
+          "hash": "00000000000000000008dce6d0d375bc5032ba495e38431b1b43fbdd783c33d6",
+          "confirmations_accumulated": 251,
+          "confirmations_required": 0
+            sent from: "location": "18.215.28.188:8333"
+              
+        }
+      }
+    ],
+    "addresses": {
+      "bitcoin": "bc1qf8cedqguh2ucc3fgsphmgt789q9szh35vtl38m, 
+       "          bc1q0hwkekts5kplerxe5l6el8pqjp8t49m6rspwen",
+      
+    },
+    "redirect_url": "https://charge/incomplete", 
+                      confirm: "silent", run webhook: 
+                      client approval: true
+                      confirm: "in-chain: wallet" 
+                      preferance:low
+                      confirm:"1189441"
+                      report: "in-chain:wallet" balance: "null"
+                      extract: "settings: client-contact"
+                      run: "self-report: "fraud" find: "associated accounts"
+                      confirm: delete "in-chain wallet-id: bc1qf8cedqguh2ucc3fgsphmgt789q9szh35vtl38m
+                      confirm: "wallet: empty"
+                      
+                               "cancel_url": "https://charge/canceled/page"
+  }
+}
